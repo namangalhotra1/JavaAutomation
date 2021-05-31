@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [trialv2]">
+  <test thread-count="5" name="Trial(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.trial.testCases.TC_LoginTest_002">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="LoginDDT" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.trial.testCases.TC_LoginTest_002 -->
+    </classes>
+  </test> <!-- Trial(failed) -->
+</suite> <!-- Failed suite [trialv2] -->
